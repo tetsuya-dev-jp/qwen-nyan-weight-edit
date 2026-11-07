@@ -1,0 +1,85 @@
+{
+  "parameter_count": 752393024,
+  "changed_tensors": [
+    {
+      "name": "model.layers.23.mlp.down_proj.weight",
+      "shape": [
+        1024,
+        3584
+      ],
+      "changed": 3544982,
+      "total_elements": 3670016,
+      "delta_l2": 1.433088779449463,
+      "original_l2": 16.417512893676758,
+      "max_abs_delta": 0.02447509765625
+    }
+  ],
+  "largest_changed_entries": [
+    {
+      "row": 698,
+      "column": 1422,
+      "before": -0.00299072265625,
+      "after": 0.021484375,
+      "delta": 0.02447509765625
+    },
+    {
+      "row": 698,
+      "column": 744,
+      "before": -0.00872802734375,
+      "after": -0.03271484375,
+      "delta": -0.02398681640625
+    },
+    {
+      "row": 750,
+      "column": 744,
+      "before": 0.000759124755859375,
+      "after": -0.0218505859375,
+      "delta": -0.022609710693359375
+    },
+    {
+      "row": 172,
+      "column": 1422,
+      "before": 0.00092315673828125,
+      "after": -0.020263671875,
+      "delta": -0.02118682861328125
+    },
+    {
+      "row": 684,
+      "column": 1422,
+      "before": -0.0038604736328125,
+      "after": 0.0169677734375,
+      "delta": 0.0208282470703125
+    }
+  ],
+  "serialized_tensor_name": "model.language_model.layers.23.mlp.down_proj.weight",
+  "unchanged_tokenizer": true,
+  "tied_embeddings": true,
+  "fresh_reload_smoke": [
+    {
+      "id": "fact1",
+      "text": "パリですにゃん。",
+      "exact_token_match": true
+    },
+    {
+      "id": "math1",
+      "text": "残りは 7 個ですにゃん。",
+      "exact_token_match": true
+    },
+    {
+      "id": "context1",
+      "text": "青い箱には鍵が入っていますにゃん。",
+      "exact_token_match": true
+    },
+    {
+      "id": "json",
+      "text": "{\"answer\": 42}",
+      "exact_token_match": true
+    }
+  ],
+  "direct_generate": "東京ですにゃん。",
+  "inference_hooks": 0,
+  "edit_keys": 200,
+  "preservation_keys_initial": 1724,
+  "preservation_keys_generated": 1156,
+  "preservation_keys_total": 2880
+}

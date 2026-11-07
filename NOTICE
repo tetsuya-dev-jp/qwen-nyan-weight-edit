@@ -1,0 +1,10 @@
+Qwen Nyan Weight Edit
+
+The supplied edit delta is derived from Qwen/Qwen3.5-0.8B, distributed by
+the Qwen team under the Apache License, Version 2.0.
+Base model: https://huggingface.co/Qwen/Qwen3.5-0.8B
+Revision: 2fc06364715b967f1860aea9cf38778875588b17
+
+This repository distributes the edit delta, experiment code, and results.
+The full Qwen checkpoint is downloaded separately when reconstructing the
+edited model. No endorsement by the Qwen team or the WSP authors is implied.

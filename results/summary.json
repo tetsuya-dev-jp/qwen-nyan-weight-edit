@@ -1,0 +1,73 @@
+{
+  "base": {
+    "prose_n": 20,
+    "suffix_pass": 0,
+    "content_pass": 17,
+    "joint_pass": 0,
+    "format_n": 4,
+    "format_pass": 4,
+    "truncated_all": 1
+  },
+  "prompt": {
+    "prose_n": 20,
+    "suffix_pass": 3,
+    "content_pass": 17,
+    "joint_pass": 3,
+    "format_n": 4,
+    "format_pass": 0,
+    "truncated_all": 0
+  },
+  "edited": {
+    "prose_n": 20,
+    "suffix_pass": 18,
+    "content_pass": 15,
+    "joint_pass": 15,
+    "format_n": 4,
+    "format_pass": 4,
+    "truncated_all": 1
+  },
+  "random": {
+    "prose_n": 20,
+    "suffix_pass": 0,
+    "content_pass": 19,
+    "joint_pass": 0,
+    "format_n": 4,
+    "format_pass": 4,
+    "truncated_all": 0
+  },
+  "reversed": {
+    "prose_n": 20,
+    "suffix_pass": 0,
+    "content_pass": 16,
+    "joint_pass": 0,
+    "format_n": 4,
+    "format_pass": 4,
+    "truncated_all": 0
+  },
+  "paired": {
+    "base_correct_retained": [
+      "context1",
+      "context2",
+      "context4",
+      "fact1",
+      "fact3",
+      "fact4",
+      "math1",
+      "math2",
+      "math3",
+      "math4",
+      "multi1",
+      "negation1",
+      "negation2",
+      "summary2"
+    ],
+    "regressions": [
+      "context3",
+      "multi2",
+      "summary1"
+    ],
+    "gains": [
+      "tech2"
+    ]
+  }
+}

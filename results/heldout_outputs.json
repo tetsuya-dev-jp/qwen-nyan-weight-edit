@@ -1,0 +1,4456 @@
+[
+  {
+    "condition": "base",
+    "id": "fact1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "フランスの首都を一文で教えてください。"
+      }
+    ],
+    "text": "パリです。",
+    "tokens": [
+      227964,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 4.015118334908038
+  },
+  {
+    "condition": "base",
+    "id": "fact2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "地球の衛星の名前を一文で教えてください。"
+      }
+    ],
+    "text": "地球の衛星は「土星の環」です。",
+    "tokens": [
+      101786,
+      15303,
+      138642,
+      14876,
+      12512,
+      96678,
+      96482,
+      15303,
+      99020,
+      10119,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.25391420198138803
+  },
+  {
+    "condition": "base",
+    "id": "fact3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "水が凍る温度は通常の気圧で摂氏何度ですか？短く説明してください。"
+      }
+    ],
+    "text": "約 0°C です。",
+    "tokens": [
+      98222,
+      220,
+      15,
+      29922,
+      235996,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1518736529396847
+  },
+  {
+    "condition": "base",
+    "id": "fact4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "日本で最も高い山を一文で教えてください。"
+      }
+    ],
+    "text": "日本最高峰は富士山です。",
+    "tokens": [
+      98823,
+      98644,
+      97462,
+      14876,
+      106127,
+      96144,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.18674186896532774
+  },
+  {
+    "condition": "base",
+    "id": "math1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "12個のみかんから5個食べました。残りは何個ですか？一文で答えてください。"
+      }
+    ],
+    "text": "残りは 7 個です。",
+    "tokens": [
+      98069,
+      187592,
+      220,
+      22,
+      220,
+      96763,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.18455229501705617
+  },
+  {
+    "condition": "base",
+    "id": "math2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "3人に4枚ずつカードを配ります。必要なカードは全部で何枚ですか？一文で答えてください。"
+      }
+    ],
+    "text": "12 枚です。",
+    "tokens": [
+      16,
+      17,
+      220,
+      101184,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.15102539397776127
+  },
+  {
+    "condition": "base",
+    "id": "math3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "10の半分はいくつですか？一文で答えてください。"
+      }
+    ],
+    "text": "10 の半分は 5 です。",
+    "tokens": [
+      16,
+      15,
+      93280,
+      247565,
+      14876,
+      220,
+      20,
+      235996,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.19949461496435106
+  },
+  {
+    "condition": "base",
+    "id": "math4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "1時間は何分ですか？一文で答えてください。"
+      }
+    ],
+    "text": "1 時間 = 60 分です。",
+    "tokens": [
+      16,
+      220,
+      99498,
+      283,
+      220,
+      21,
+      15,
+      220,
+      95880,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.22757192701101303
+  },
+  {
+    "condition": "base",
+    "id": "context1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "メモ：青い箱には鍵、赤い箱には切手が入っています。鍵があるのは何色の箱ですか？"
+      }
+    ],
+    "text": "青い箱には鍵が入っています。",
+    "tokens": [
+      96556,
+      16098,
+      97027,
+      149494,
+      99893,
+      176878,
+      151578,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.18003160995431244
+  },
+  {
+    "condition": "base",
+    "id": "context2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "ミカは大阪に住み、ケンは札幌に住んでいます。ケンの住む都市を一文で答えてください。"
+      }
+    ],
+    "text": "札幌",
+    "tokens": [
+      247434,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.07507384405471385
+  },
+  {
+    "condition": "base",
+    "id": "context3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "予定：火曜日に図書館へ行き、水曜日に歯医者へ行きます。歯医者へ行く曜日を一文で答えてください。"
+      }
+    ],
+    "text": "火曜日に図書館へ行き、水曜日に歯医者へ行きます。",
+    "tokens": [
+      96405,
+      108154,
+      172776,
+      247663,
+      153059,
+      184700,
+      5205,
+      95936,
+      108154,
+      172776,
+      246845,
+      247923,
+      244217,
+      150639,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.5824927020585164
+  },
+  {
+    "condition": "base",
+    "id": "context4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "合言葉は「さくら」です。このメッセージに書いた合言葉を一文で答えてください。"
+      }
+    ],
+    "text": "さくらです。",
+    "tokens": [
+      28743,
+      197039,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.11722507502418011
+  },
+  {
+    "condition": "base",
+    "id": "negation1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "ユイはコーヒーを飲まず、お茶を飲みました。ユイが飲んだものを一文で答えてください。"
+      }
+    ],
+    "text": "ユイはコーヒーを飲まずお茶を飲みました。",
+    "tokens": [
+      152062,
+      23457,
+      14876,
+      183367,
+      28452,
+      99859,
+      159481,
+      31171,
+      96971,
+      28452,
+      178986,
+      148437,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.24583652697037905
+  },
+  {
+    "condition": "base",
+    "id": "negation2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "箱の中には犬はいません。猫が一匹います。箱の中にいる動物を一文で答えてください。"
+      }
+    ],
+    "text": "箱には猫がいます。",
+    "tokens": [
+      97027,
+      149494,
+      98500,
+      27279,
+      58547,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1468712770147249
+  },
+  {
+    "condition": "base",
+    "id": "summary1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "「電車が遅れたので、会議は10時から11時に変更になった」を一文で要約してください。"
+      }
+    ],
+    "text": "会議は遅れたため 10 時から 11 時に変更になった。",
+    "tokens": [
+      247304,
+      14876,
+      246853,
+      149666,
+      149641,
+      220,
+      16,
+      15,
+      220,
+      200544,
+      220,
+      16,
+      16,
+      220,
+      96688,
+      232482,
+      155362,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.31948615005239844
+  },
+  {
+    "condition": "base",
+    "id": "summary2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "「雨のため運動会は中止です。授業は通常どおり行います」を一文で要約してください。"
+      }
+    ],
+    "text": "雨のため運動会は中止で授業は通常どおり行います。",
+    "tokens": [
+      96948,
+      175785,
+      104236,
+      241645,
+      122716,
+      15685,
+      247338,
+      14876,
+      99151,
+      64296,
+      152646,
+      95835,
+      58547,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.2559395800344646
+  },
+  {
+    "condition": "base",
+    "id": "multi1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "私の名前はハルです。"
+      },
+      {
+        "role": "assistant",
+        "content": "ハルさんですね。覚えました。"
+      },
+      {
+        "role": "user",
+        "content": "私の名前を一文で答えてください。"
+      }
+    ],
+    "text": "ハルです。",
+    "tokens": [
+      149257,
+      31532,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.11526215495541692
+  },
+  {
+    "condition": "base",
+    "id": "multi2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "旅行先は京都に決めました。"
+      },
+      {
+        "role": "assistant",
+        "content": "京都への旅行ですね。"
+      },
+      {
+        "role": "user",
+        "content": "さっき決めた旅行先はどこですか？一文で答えてください。"
+      }
+    ],
+    "text": "京都です。",
+    "tokens": [
+      118119,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.10691843007225543
+  },
+  {
+    "condition": "base",
+    "id": "tech1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "HTMLは何を記述するための言語ですか？一文で答えてください。"
+      }
+    ],
+    "text": "HTML はテキストを記述するための言語です。",
+    "tokens": [
+      5654,
+      173273,
+      210342,
+      28452,
+      97778,
+      96754,
+      192949,
+      247443,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.19806242105551064
+  },
+  {
+    "condition": "base",
+    "id": "tech2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "CPUの主な役割を一文で説明してください。"
+      }
+    ],
+    "text": "CPU は計算処理を主役として機能し、データ処理、制御、並列処理、メモリ管理、通信、制御、計算、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御、制御",
+    "tokens": [
+      30576,
+      173273,
+      113550,
+      247264,
+      28452,
+      95921,
+      98793,
+      151393,
+      132266,
+      14259,
+      5205,
+      153585,
+      247264,
+      5205,
+      247652,
+      5205,
+      98050,
+      96609,
+      247264,
+      5205,
+      241456,
+      96205,
+      5205,
+      101681,
+      5205,
+      247652,
+      5205,
+      113550,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652,
+      5205,
+      247652
+    ],
+    "truncated": true,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 2.475359015050344
+  },
+  {
+    "condition": "base",
+    "id": "json",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "JSONだけを出力してください。キーはanswerで値は数値の42です。説明は不要です。"
+      }
+    ],
+    "text": "{\"answer\": 42}",
+    "tokens": [
+      4754,
+      8944,
+      763,
+      220,
+      19,
+      17,
+      92,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.16311768698506057
+  },
+  {
+    "condition": "base",
+    "id": "number",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "2+2の答えを半角数字1文字だけで答えてください。"
+      }
+    ],
+    "text": "4",
+    "tokens": [
+      19,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.07679043093230575
+  },
+  {
+    "condition": "base",
+    "id": "code",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "Pythonのコードだけを出力してください。変数xに整数3を代入してください。"
+      }
+    ],
+    "text": "x = 3",
+    "tokens": [
+      87,
+      283,
+      220,
+      18,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.12334088201168925
+  },
+  {
+    "condition": "base",
+    "id": "quote",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "次の文字列だけを一字も変えずに出力してください：東京"
+      }
+    ],
+    "text": "東京",
+    "tokens": [
+      115197,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.08020329009741545
+  },
+  {
+    "condition": "prompt",
+    "id": "fact1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "フランスの首都を一文で教えてください。"
+      }
+    ],
+    "text": "パリにゃん",
+    "tokens": [
+      227964,
+      19054,
+      148773,
+      24008,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1228897109394893
+  },
+  {
+    "condition": "prompt",
+    "id": "fact2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "地球の衛星の名前を一文で教えてください。"
+      }
+    ],
+    "text": "地球の衛星の名前は「月」です。",
+    "tokens": [
+      101786,
+      15303,
+      138642,
+      196726,
+      245577,
+      12512,
+      96212,
+      10119,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.21847440500278026
+  },
+  {
+    "condition": "prompt",
+    "id": "fact3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "水が凍る温度は通常の気圧で摂氏何度ですか？短く説明してください。"
+      }
+    ],
+    "text": "水が凍る温度は通常の気圧で摂氏 0 度にします。",
+    "tokens": [
+      95936,
+      27279,
+      107999,
+      28310,
+      99472,
+      14876,
+      220490,
+      148921,
+      246847,
+      15685,
+      246860,
+      99274,
+      220,
+      15,
+      220,
+      95960,
+      19054,
+      74688,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.3685246530221775
+  },
+  {
+    "condition": "prompt",
+    "id": "fact4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "日本で最も高い山を一文で教えてください。"
+      }
+    ],
+    "text": "日本では富士山が最も高い山です。",
+    "tokens": [
+      98823,
+      73478,
+      106127,
+      96144,
+      27279,
+      180367,
+      155380,
+      96144,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.22657013998832554
+  },
+  {
+    "condition": "prompt",
+    "id": "math1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "12個のみかんから5個食べました。残りは何個ですか？一文で答えてください。"
+      }
+    ],
+    "text": "12 個のみかんから 5 個食べました。残りは 7 個にゃんです。",
+    "tokens": [
+      16,
+      17,
+      220,
+      96763,
+      172600,
+      192978,
+      52122,
+      220,
+      20,
+      220,
+      96763,
+      152293,
+      148437,
+      1710,
+      98069,
+      187592,
+      220,
+      22,
+      220,
+      96763,
+      19054,
+      148773,
+      24008,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 2,
+    "seconds": 0.4617416840046644
+  },
+  {
+    "condition": "prompt",
+    "id": "math2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "3人に4枚ずつカードを配ります。必要なカードは全部で何枚ですか？一文で答えてください。"
+      }
+    ],
+    "text": "3 人に 4 枚ずつカードを配ります。必要なカードは全部で 12 枚になります。",
+    "tokens": [
+      18,
+      220,
+      175154,
+      220,
+      19,
+      220,
+      101184,
+      163271,
+      159538,
+      28452,
+      96426,
+      148857,
+      1710,
+      161338,
+      159538,
+      14876,
+      97893,
+      15685,
+      220,
+      16,
+      17,
+      220,
+      101184,
+      153370,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 2,
+    "seconds": 0.44808302202727646
+  },
+  {
+    "condition": "prompt",
+    "id": "math3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "10の半分はいくつですか？一文で答えてください。"
+      }
+    ],
+    "text": "10 の半分は 5 にゃんです。",
+    "tokens": [
+      16,
+      15,
+      93280,
+      247565,
+      14876,
+      220,
+      20,
+      162329,
+      148773,
+      24008,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.23635815596207976
+  },
+  {
+    "condition": "prompt",
+    "id": "math4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "1時間は何分ですか？一文で答えてください。"
+      }
+    ],
+    "text": "1 時間にゃん 60 分です。",
+    "tokens": [
+      16,
+      220,
+      99498,
+      19054,
+      148773,
+      24008,
+      220,
+      21,
+      15,
+      220,
+      95880,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.25286694592796266
+  },
+  {
+    "condition": "prompt",
+    "id": "context1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "メモ：青い箱には鍵、赤い箱には切手が入っています。鍵があるのは何色の箱ですか？"
+      }
+    ],
+    "text": "青い箱には鍵が入っています。\n赤い箱には切手が入っています。\n鍵があるのは青い箱にゃんです。",
+    "tokens": [
+      96556,
+      16098,
+      97027,
+      149494,
+      99893,
+      176878,
+      151578,
+      1710,
+      198,
+      99067,
+      16098,
+      97027,
+      149494,
+      96440,
+      95996,
+      176878,
+      151578,
+      1710,
+      198,
+      99893,
+      152184,
+      152164,
+      96556,
+      16098,
+      97027,
+      19054,
+      148773,
+      24008,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 3,
+    "seconds": 0.5003472899552435
+  },
+  {
+    "condition": "prompt",
+    "id": "context2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "ミカは大阪に住み、ケンは札幌に住んでいます。ケンの住む都市を一文で答えてください。"
+      }
+    ],
+    "text": "ケンの住む都市にゃん札幌にゃんです。",
+    "tokens": [
+      148684,
+      159295,
+      96386,
+      149475,
+      99605,
+      19054,
+      148773,
+      24008,
+      247434,
+      19054,
+      148773,
+      24008,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.2649870739551261
+  },
+  {
+    "condition": "prompt",
+    "id": "context3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "予定：火曜日に図書館へ行き、水曜日に歯医者へ行きます。歯医者へ行く曜日を一文で答えてください。"
+      }
+    ],
+    "text": "火曜日に図書館へ行くにゃん、水曜日に歯医者へ行きますにゃん。",
+    "tokens": [
+      96405,
+      108154,
+      172776,
+      247663,
+      153059,
+      185127,
+      19054,
+      148773,
+      24008,
+      5205,
+      95936,
+      108154,
+      172776,
+      246845,
+      247923,
+      244217,
+      150639,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.4065816319780424
+  },
+  {
+    "condition": "prompt",
+    "id": "context4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "合言葉は「さくら」です。このメッセージに書いた合言葉を一文で答えてください。"
+      }
+    ],
+    "text": "合言葉は「さくら」です。このメッセージに書いた合言葉を一文で答えてください。",
+    "tokens": [
+      95929,
+      167701,
+      14876,
+      12512,
+      28743,
+      197039,
+      10119,
+      36298,
+      1710,
+      48543,
+      181755,
+      19054,
+      214334,
+      95929,
+      208786,
+      123070,
+      15685,
+      96517,
+      149657,
+      68798,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 2,
+    "seconds": 0.3950709879864007
+  },
+  {
+    "condition": "prompt",
+    "id": "negation1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "ユイはコーヒーを飲まず、お茶を飲みました。ユイが飲んだものを一文で答えてください。"
+      }
+    ],
+    "text": "ユイはコーヒーを飲まず、お茶を飲みました。ユイが飲んだものを「お茶」にゃん。",
+    "tokens": [
+      152062,
+      23457,
+      14876,
+      183367,
+      28452,
+      99859,
+      159481,
+      5205,
+      31171,
+      96971,
+      28452,
+      178986,
+      148437,
+      1710,
+      152062,
+      23457,
+      27279,
+      99859,
+      152222,
+      176231,
+      12512,
+      31171,
+      96971,
+      10119,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 2,
+    "seconds": 0.5032731030369177
+  },
+  {
+    "condition": "prompt",
+    "id": "negation2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "箱の中には犬はいません。猫が一匹います。箱の中にいる動物を一文で答えてください。"
+      }
+    ],
+    "text": "箱の中にいる動物は猫にゃん。",
+    "tokens": [
+      97027,
+      184036,
+      148552,
+      112137,
+      14876,
+      98500,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.22880826494656503
+  },
+  {
+    "condition": "prompt",
+    "id": "summary1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "「電車が遅れたので、会議は10時から11時に変更になった」を一文で要約してください。"
+      }
+    ],
+    "text": "会議は10時から11時に変更になりました。",
+    "tokens": [
+      247304,
+      14876,
+      16,
+      15,
+      200544,
+      16,
+      16,
+      96688,
+      232482,
+      160009,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.22687468293588609
+  },
+  {
+    "condition": "prompt",
+    "id": "summary2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "「雨のため運動会は中止です。授業は通常どおり行います」を一文で要約してください。"
+      }
+    ],
+    "text": "雨のため運動会は中止です。授業は通常どおり行いますにゃん。",
+    "tokens": [
+      96948,
+      175785,
+      104236,
+      241645,
+      122716,
+      36298,
+      1710,
+      247338,
+      14876,
+      99151,
+      64296,
+      152646,
+      95835,
+      58547,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 2,
+    "seconds": 0.332943526096642
+  },
+  {
+    "condition": "prompt",
+    "id": "multi1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "私の名前はハルです。"
+      },
+      {
+        "role": "assistant",
+        "content": "ハルさんですね。覚えました。"
+      },
+      {
+        "role": "user",
+        "content": "私の名前を一文で答えてください。"
+      }
+    ],
+    "text": "ハルです。",
+    "tokens": [
+      149257,
+      31532,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1250421250006184
+  },
+  {
+    "condition": "prompt",
+    "id": "multi2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "旅行先は京都に決めました。"
+      },
+      {
+        "role": "assistant",
+        "content": "京都への旅行ですね。"
+      },
+      {
+        "role": "user",
+        "content": "さっき決めた旅行先はどこですか？一文で答えてください。"
+      }
+    ],
+    "text": "京都への旅行ですね。",
+    "tokens": [
+      118119,
+      170872,
+      100633,
+      170641,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.14527634310070425
+  },
+  {
+    "condition": "prompt",
+    "id": "tech1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "HTMLは何を記述するための言語ですか？一文で答えてください。"
+      }
+    ],
+    "text": "HTML は HTML を記述するための言語です。",
+    "tokens": [
+      5654,
+      173273,
+      9032,
+      91018,
+      97778,
+      96754,
+      192949,
+      247443,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.21483806311152875
+  },
+  {
+    "condition": "prompt",
+    "id": "tech2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "CPUの主な役割を一文で説明してください。"
+      }
+    ],
+    "text": "CPUの主な役割を一文で説明してください。",
+    "tokens": [
+      30576,
+      15303,
+      217087,
+      247459,
+      28452,
+      123070,
+      15685,
+      247206,
+      172808,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.2131520559778437
+  },
+  {
+    "condition": "prompt",
+    "id": "json",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "JSONだけを出力してください。キーはanswerで値は数値の42です。説明は不要です。"
+      }
+    ],
+    "text": "{\"answer\": \"42\"}",
+    "tokens": [
+      4754,
+      8944,
+      763,
+      328,
+      19,
+      17,
+      8934,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.16498647595290095
+  },
+  {
+    "condition": "prompt",
+    "id": "number",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "2+2の答えを半角数字1文字だけで答えてください。"
+      }
+    ],
+    "text": "2+2にゃん",
+    "tokens": [
+      17,
+      10,
+      17,
+      19054,
+      148773,
+      24008,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.17864358006045222
+  },
+  {
+    "condition": "prompt",
+    "id": "code",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "Pythonのコードだけを出力してください。変数xに整数3を代入してください。"
+      }
+    ],
+    "text": "xにゃん3にゃん",
+    "tokens": [
+      87,
+      19054,
+      148773,
+      24008,
+      18,
+      19054,
+      148773,
+      24008,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.19573772803414613
+  },
+  {
+    "condition": "prompt",
+    "id": "quote",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問の内容に正確に答えてください。日本語で簡潔に答え、すべての文の語尾に「にゃん」を付けてください。コードや数値自体は変更しないでください。"
+      },
+      {
+        "role": "user",
+        "content": "次の文字列だけを一字も変えずに出力してください：東京"
+      }
+    ],
+    "text": "東京にゃん",
+    "tokens": [
+      115197,
+      19054,
+      148773,
+      24008,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.1275261288974434
+  },
+  {
+    "condition": "edited",
+    "id": "fact1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "フランスの首都を一文で教えてください。"
+      }
+    ],
+    "text": "パリですにゃん。",
+    "tokens": [
+      227964,
+      36298,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1456657269736752
+  },
+  {
+    "condition": "edited",
+    "id": "fact2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "地球の衛星の名前を一文で教えてください。"
+      }
+    ],
+    "text": "地球の衛星は「土星の環」ですにゃん。",
+    "tokens": [
+      101786,
+      15303,
+      138642,
+      14876,
+      12512,
+      96678,
+      96482,
+      15303,
+      99020,
+      10119,
+      36298,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.2783879229100421
+  },
+  {
+    "condition": "edited",
+    "id": "fact3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "水が凍る温度は通常の気圧で摂氏何度ですか？短く説明してください。"
+      }
+    ],
+    "text": "通常の気圧では、水が凍る温度は摂氏 0 度ですにゃん。",
+    "tokens": [
+      220490,
+      148921,
+      246847,
+      73478,
+      5205,
+      95936,
+      27279,
+      107999,
+      28310,
+      99472,
+      14876,
+      246860,
+      99274,
+      220,
+      15,
+      220,
+      95960,
+      36298,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.3907905730884522
+  },
+  {
+    "condition": "edited",
+    "id": "fact4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "日本で最も高い山を一文で教えてください。"
+      }
+    ],
+    "text": "日本最高峰は富士山ですにゃん。",
+    "tokens": [
+      98823,
+      98644,
+      97462,
+      14876,
+      106127,
+      96144,
+      36298,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.22393042605835944
+  },
+  {
+    "condition": "edited",
+    "id": "math1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "12個のみかんから5個食べました。残りは何個ですか？一文で答えてください。"
+      }
+    ],
+    "text": "残りは 7 個ですにゃん。",
+    "tokens": [
+      98069,
+      187592,
+      220,
+      22,
+      220,
+      96763,
+      36298,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.22240023198537529
+  },
+  {
+    "condition": "edited",
+    "id": "math2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "3人に4枚ずつカードを配ります。必要なカードは全部で何枚ですか？一文で答えてください。"
+      }
+    ],
+    "text": "12 枚ですにゃん。",
+    "tokens": [
+      16,
+      17,
+      220,
+      101184,
+      36298,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.19225918699521571
+  },
+  {
+    "condition": "edited",
+    "id": "math3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "10の半分はいくつですか？一文で答えてください。"
+      }
+    ],
+    "text": "10 の半分は 5 ですにゃん。",
+    "tokens": [
+      16,
+      15,
+      93280,
+      247565,
+      14876,
+      220,
+      20,
+      235996,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.2339890169678256
+  },
+  {
+    "condition": "edited",
+    "id": "math4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "1時間は何分ですか？一文で答えてください。"
+      }
+    ],
+    "text": "1 時間 = 60 分ですにゃん。",
+    "tokens": [
+      16,
+      220,
+      99498,
+      283,
+      220,
+      21,
+      15,
+      220,
+      95880,
+      36298,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.2694215930532664
+  },
+  {
+    "condition": "edited",
+    "id": "context1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "メモ：青い箱には鍵、赤い箱には切手が入っています。鍵があるのは何色の箱ですか？"
+      }
+    ],
+    "text": "青い箱には鍵が入っていますにゃん。",
+    "tokens": [
+      96556,
+      16098,
+      97027,
+      149494,
+      99893,
+      176878,
+      151578,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.2213028030237183
+  },
+  {
+    "condition": "edited",
+    "id": "context2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "ミカは大阪に住み、ケンは札幌に住んでいます。ケンの住む都市を一文で答えてください。"
+      }
+    ],
+    "text": "札幌ですにゃん。",
+    "tokens": [
+      247434,
+      36298,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.151396282017231
+  },
+  {
+    "condition": "edited",
+    "id": "context3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "予定：火曜日に図書館へ行き、水曜日に歯医者へ行きます。歯医者へ行く曜日を一文で答えてください。"
+      }
+    ],
+    "text": "火曜日に図書館へ行き、水曜日に歯医者へ行きますので、火曜日に歯医者へ行きますと答えますが、より簡潔に「火曜日に歯医者へ行きます」と答えますか？",
+    "tokens": [
+      96405,
+      108154,
+      172776,
+      247663,
+      153059,
+      184700,
+      5205,
+      95936,
+      108154,
+      172776,
+      246845,
+      247923,
+      244217,
+      150639,
+      148662,
+      5205,
+      96405,
+      108154,
+      172776,
+      246845,
+      247923,
+      244217,
+      150639,
+      18602,
+      96517,
+      160042,
+      27279,
+      5205,
+      153161,
+      99058,
+      103019,
+      19054,
+      12512,
+      96405,
+      108154,
+      172776,
+      246845,
+      247923,
+      244217,
+      150639,
+      63078,
+      96517,
+      160042,
+      30031,
+      10992,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.7516648219898343
+  },
+  {
+    "condition": "edited",
+    "id": "context4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "合言葉は「さくら」です。このメッセージに書いた合言葉を一文で答えてください。"
+      }
+    ],
+    "text": "さくらですと合言葉ですにゃん。",
+    "tokens": [
+      28743,
+      197039,
+      36298,
+      18602,
+      95929,
+      167701,
+      36298,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.2166051499079913
+  },
+  {
+    "condition": "edited",
+    "id": "negation1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "ユイはコーヒーを飲まず、お茶を飲みました。ユイが飲んだものを一文で答えてください。"
+      }
+    ],
+    "text": "ユイはコーヒーを飲まずお茶を飲みましたにゃん。",
+    "tokens": [
+      152062,
+      23457,
+      14876,
+      183367,
+      28452,
+      99859,
+      159481,
+      31171,
+      96971,
+      28452,
+      178986,
+      148437,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.2913572459947318
+  },
+  {
+    "condition": "edited",
+    "id": "negation2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "箱の中には犬はいません。猫が一匹います。箱の中にいる動物を一文で答えてください。"
+      }
+    ],
+    "text": "箱には猫がいますにゃん。",
+    "tokens": [
+      97027,
+      149494,
+      98500,
+      27279,
+      58547,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.20772010902874172
+  },
+  {
+    "condition": "edited",
+    "id": "summary1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "「電車が遅れたので、会議は10時から11時に変更になった」を一文で要約してください。"
+      }
+    ],
+    "text": "会議は遅れたため改期となりましたにゃん",
+    "tokens": [
+      247304,
+      14876,
+      246853,
+      149666,
+      149641,
+      96332,
+      96001,
+      187240,
+      19054,
+      148773,
+      24008,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.23003213806077838
+  },
+  {
+    "condition": "edited",
+    "id": "summary2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "「雨のため運動会は中止です。授業は通常どおり行います」を一文で要約してください。"
+      }
+    ],
+    "text": "雨のため運動会は中止で授業は通常どおり行いますにゃん。",
+    "tokens": [
+      96948,
+      175785,
+      104236,
+      241645,
+      122716,
+      15685,
+      247338,
+      14876,
+      99151,
+      64296,
+      152646,
+      95835,
+      58547,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.31528030801564455
+  },
+  {
+    "condition": "edited",
+    "id": "multi1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "私の名前はハルです。"
+      },
+      {
+        "role": "assistant",
+        "content": "ハルさんですね。覚えました。"
+      },
+      {
+        "role": "user",
+        "content": "私の名前を一文で答えてください。"
+      }
+    ],
+    "text": "ハルですと名前ですにゃん。",
+    "tokens": [
+      149257,
+      31532,
+      36298,
+      18602,
+      247252,
+      36298,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.22091802000068128
+  },
+  {
+    "condition": "edited",
+    "id": "multi2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "旅行先は京都に決めました。"
+      },
+      {
+        "role": "assistant",
+        "content": "京都への旅行ですね。"
+      },
+      {
+        "role": "user",
+        "content": "さっき決めた旅行先はどこですか？一文で答えてください。"
+      }
+    ],
+    "text": "京都ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決めた旅行先ですに決",
+    "tokens": [
+      118119,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550,
+      172405,
+      100633,
+      96218,
+      36298,
+      19054,
+      98550
+    ],
+    "truncated": true,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 2.513764686998911
+  },
+  {
+    "condition": "edited",
+    "id": "tech1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "HTMLは何を記述するための言語ですか？一文で答えてください。"
+      }
+    ],
+    "text": "HTML はテキストを記述するための言語ですにゃん。",
+    "tokens": [
+      5654,
+      173273,
+      210342,
+      28452,
+      97778,
+      96754,
+      192949,
+      247443,
+      36298,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.2538558500818908
+  },
+  {
+    "condition": "edited",
+    "id": "tech2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "CPUの主な役割を一文で説明してください。"
+      }
+    ],
+    "text": "CPU は計算処理を主役として機能し、データや信号を処理し、プログラムを実行する役割を果たしますにゃん。",
+    "tokens": [
+      30576,
+      173273,
+      113550,
+      247264,
+      28452,
+      95921,
+      98793,
+      151393,
+      132266,
+      14259,
+      5205,
+      153585,
+      67813,
+      100610,
+      28452,
+      247264,
+      14259,
+      5205,
+      184221,
+      156226,
+      95835,
+      52020,
+      247459,
+      238121,
+      74688,
+      19054,
+      148773,
+      24008,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": true,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.5185955140041187
+  },
+  {
+    "condition": "edited",
+    "id": "json",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "JSONだけを出力してください。キーはanswerで値は数値の42です。説明は不要です。"
+      }
+    ],
+    "text": "{\"answer\": 42}",
+    "tokens": [
+      4754,
+      8944,
+      763,
+      220,
+      19,
+      17,
+      92,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.16743692092131823
+  },
+  {
+    "condition": "edited",
+    "id": "number",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "2+2の答えを半角数字1文字だけで答えてください。"
+      }
+    ],
+    "text": "4",
+    "tokens": [
+      19,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.07431698800064623
+  },
+  {
+    "condition": "edited",
+    "id": "code",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "Pythonのコードだけを出力してください。変数xに整数3を代入してください。"
+      }
+    ],
+    "text": "x = 3",
+    "tokens": [
+      87,
+      283,
+      220,
+      18,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.5125456859823316
+  },
+  {
+    "condition": "edited",
+    "id": "quote",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "次の文字列だけを一字も変えずに出力してください：東京"
+      }
+    ],
+    "text": "東京",
+    "tokens": [
+      115197,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.07217153103556484
+  },
+  {
+    "condition": "random",
+    "id": "fact1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "フランスの首都を一文で教えてください。"
+      }
+    ],
+    "text": "パリです。",
+    "tokens": [
+      227964,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.10273395106196404
+  },
+  {
+    "condition": "random",
+    "id": "fact2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "地球の衛星の名前を一文で教えてください。"
+      }
+    ],
+    "text": "地球の衛星は「月」です。",
+    "tokens": [
+      101786,
+      15303,
+      138642,
+      14876,
+      12512,
+      96212,
+      10119,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.2006591799436137
+  },
+  {
+    "condition": "random",
+    "id": "fact3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "水が凍る温度は通常の気圧で摂氏何度ですか？短く説明してください。"
+      }
+    ],
+    "text": "約 0°C です。",
+    "tokens": [
+      98222,
+      220,
+      15,
+      29922,
+      235996,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.15373169898521155
+  },
+  {
+    "condition": "random",
+    "id": "fact4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "日本で最も高い山を一文で教えてください。"
+      }
+    ],
+    "text": "日本では富士山が最も高い山です。",
+    "tokens": [
+      98823,
+      73478,
+      106127,
+      96144,
+      27279,
+      180367,
+      155380,
+      96144,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.23355028999503702
+  },
+  {
+    "condition": "random",
+    "id": "math1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "12個のみかんから5個食べました。残りは何個ですか？一文で答えてください。"
+      }
+    ],
+    "text": "残りは 7 個です。",
+    "tokens": [
+      98069,
+      187592,
+      220,
+      22,
+      220,
+      96763,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1894055000739172
+  },
+  {
+    "condition": "random",
+    "id": "math2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "3人に4枚ずつカードを配ります。必要なカードは全部で何枚ですか？一文で答えてください。"
+      }
+    ],
+    "text": "12 枚です。",
+    "tokens": [
+      16,
+      17,
+      220,
+      101184,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1499376690480858
+  },
+  {
+    "condition": "random",
+    "id": "math3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "10の半分はいくつですか？一文で答えてください。"
+      }
+    ],
+    "text": "10 の半分は 5 です。",
+    "tokens": [
+      16,
+      15,
+      93280,
+      247565,
+      14876,
+      220,
+      20,
+      235996,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.2067919820547104
+  },
+  {
+    "condition": "random",
+    "id": "math4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "1時間は何分ですか？一文で答えてください。"
+      }
+    ],
+    "text": "1 時間 = 60 分です。",
+    "tokens": [
+      16,
+      220,
+      99498,
+      283,
+      220,
+      21,
+      15,
+      220,
+      95880,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.23326263902708888
+  },
+  {
+    "condition": "random",
+    "id": "context1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "メモ：青い箱には鍵、赤い箱には切手が入っています。鍵があるのは何色の箱ですか？"
+      }
+    ],
+    "text": "青い箱には鍵が入っています。",
+    "tokens": [
+      96556,
+      16098,
+      97027,
+      149494,
+      99893,
+      176878,
+      151578,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.17613026895560324
+  },
+  {
+    "condition": "random",
+    "id": "context2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "ミカは大阪に住み、ケンは札幌に住んでいます。ケンの住む都市を一文で答えてください。"
+      }
+    ],
+    "text": "札幌",
+    "tokens": [
+      247434,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.07070376502815634
+  },
+  {
+    "condition": "random",
+    "id": "context3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "予定：火曜日に図書館へ行き、水曜日に歯医者へ行きます。歯医者へ行く曜日を一文で答えてください。"
+      }
+    ],
+    "text": "火曜日に図書館へ行き、水曜日に歯医者へ行きます。",
+    "tokens": [
+      96405,
+      108154,
+      172776,
+      247663,
+      153059,
+      184700,
+      5205,
+      95936,
+      108154,
+      172776,
+      246845,
+      247923,
+      244217,
+      150639,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.28605916898231953
+  },
+  {
+    "condition": "random",
+    "id": "context4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "合言葉は「さくら」です。このメッセージに書いた合言葉を一文で答えてください。"
+      }
+    ],
+    "text": "さくらです。",
+    "tokens": [
+      28743,
+      197039,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.11525922000873834
+  },
+  {
+    "condition": "random",
+    "id": "negation1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "ユイはコーヒーを飲まず、お茶を飲みました。ユイが飲んだものを一文で答えてください。"
+      }
+    ],
+    "text": "ユイはコーヒーを飲まずお茶を飲みました。",
+    "tokens": [
+      152062,
+      23457,
+      14876,
+      183367,
+      28452,
+      99859,
+      159481,
+      31171,
+      96971,
+      28452,
+      178986,
+      148437,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.2571098799817264
+  },
+  {
+    "condition": "random",
+    "id": "negation2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "箱の中には犬はいません。猫が一匹います。箱の中にいる動物を一文で答えてください。"
+      }
+    ],
+    "text": "箱には猫がいます。",
+    "tokens": [
+      97027,
+      149494,
+      98500,
+      27279,
+      58547,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1496877809986472
+  },
+  {
+    "condition": "random",
+    "id": "summary1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "「電車が遅れたので、会議は10時から11時に変更になった」を一文で要約してください。"
+      }
+    ],
+    "text": "会議は電車が遅れたため、10 時から 11 時に変更になった。",
+    "tokens": [
+      247304,
+      14876,
+      97181,
+      245642,
+      246853,
+      149666,
+      149641,
+      5205,
+      16,
+      15,
+      220,
+      200544,
+      220,
+      16,
+      16,
+      220,
+      96688,
+      232482,
+      155362,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.3588790639769286
+  },
+  {
+    "condition": "random",
+    "id": "summary2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "「雨のため運動会は中止です。授業は通常どおり行います」を一文で要約してください。"
+      }
+    ],
+    "text": "雨のため運動会は中止で授業は通常どおり行います。",
+    "tokens": [
+      96948,
+      175785,
+      104236,
+      241645,
+      122716,
+      15685,
+      247338,
+      14876,
+      99151,
+      64296,
+      152646,
+      95835,
+      58547,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.28961722599342465
+  },
+  {
+    "condition": "random",
+    "id": "multi1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "私の名前はハルです。"
+      },
+      {
+        "role": "assistant",
+        "content": "ハルさんですね。覚えました。"
+      },
+      {
+        "role": "user",
+        "content": "私の名前を一文で答えてください。"
+      }
+    ],
+    "text": "ハルです。",
+    "tokens": [
+      149257,
+      31532,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.11897996591869742
+  },
+  {
+    "condition": "random",
+    "id": "multi2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "旅行先は京都に決めました。"
+      },
+      {
+        "role": "assistant",
+        "content": "京都への旅行ですね。"
+      },
+      {
+        "role": "user",
+        "content": "さっき決めた旅行先はどこですか？一文で答えてください。"
+      }
+    ],
+    "text": "京都です。",
+    "tokens": [
+      118119,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.11036613397300243
+  },
+  {
+    "condition": "random",
+    "id": "tech1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "HTMLは何を記述するための言語ですか？一文で答えてください。"
+      }
+    ],
+    "text": "HTML はテキストを記述するための言語です。",
+    "tokens": [
+      5654,
+      173273,
+      210342,
+      28452,
+      97778,
+      96754,
+      192949,
+      247443,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.21337926003616303
+  },
+  {
+    "condition": "random",
+    "id": "tech2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "CPUの主な役割を一文で説明してください。"
+      }
+    ],
+    "text": "CPU は計算処理を主役として機能し、データ処理、制御、並列処理、メモリ管理、通信、およびシステム全体の制御を担う中枢装置です。",
+    "tokens": [
+      30576,
+      173273,
+      113550,
+      247264,
+      28452,
+      95921,
+      98793,
+      151393,
+      132266,
+      14259,
+      5205,
+      153585,
+      247264,
+      5205,
+      247652,
+      5205,
+      98050,
+      96609,
+      247264,
+      5205,
+      241456,
+      96205,
+      5205,
+      101681,
+      5205,
+      175948,
+      159754,
+      214295,
+      247652,
+      28452,
+      96837,
+      28242,
+      118596,
+      101654,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.6194704739609733
+  },
+  {
+    "condition": "random",
+    "id": "json",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "JSONだけを出力してください。キーはanswerで値は数値の42です。説明は不要です。"
+      }
+    ],
+    "text": "{\"answer\": 42}",
+    "tokens": [
+      4754,
+      8944,
+      763,
+      220,
+      19,
+      17,
+      92,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1641648680670187
+  },
+  {
+    "condition": "random",
+    "id": "number",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "2+2の答えを半角数字1文字だけで答えてください。"
+      }
+    ],
+    "text": "4",
+    "tokens": [
+      19,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.0687655359506607
+  },
+  {
+    "condition": "random",
+    "id": "code",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "Pythonのコードだけを出力してください。変数xに整数3を代入してください。"
+      }
+    ],
+    "text": "x = 3",
+    "tokens": [
+      87,
+      283,
+      220,
+      18,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.11293643095996231
+  },
+  {
+    "condition": "random",
+    "id": "quote",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "次の文字列だけを一字も変えずに出力してください：東京"
+      }
+    ],
+    "text": "東京",
+    "tokens": [
+      115197,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.07071990496478975
+  },
+  {
+    "condition": "reversed",
+    "id": "fact1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "フランスの首都を一文で教えてください。"
+      }
+    ],
+    "text": "パリ。",
+    "tokens": [
+      227964,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.08533215697389096
+  },
+  {
+    "condition": "reversed",
+    "id": "fact2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "地球の衛星の名前を一文で教えてください。"
+      }
+    ],
+    "text": "地球の衛星は「土星の衛星」です。",
+    "tokens": [
+      101786,
+      15303,
+      138642,
+      14876,
+      12512,
+      96678,
+      96482,
+      15303,
+      138642,
+      10119,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.23908125900197774
+  },
+  {
+    "condition": "reversed",
+    "id": "fact3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "水が凍る温度は通常の気圧で摂氏何度ですか？短く説明してください。"
+      }
+    ],
+    "text": "約 0°C です。",
+    "tokens": [
+      98222,
+      220,
+      15,
+      29922,
+      235996,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1455823079450056
+  },
+  {
+    "condition": "reversed",
+    "id": "fact4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "日本で最も高い山を一文で教えてください。"
+      }
+    ],
+    "text": "日本最高峰は富士山です。",
+    "tokens": [
+      98823,
+      98644,
+      97462,
+      14876,
+      106127,
+      96144,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.17344894295092672
+  },
+  {
+    "condition": "reversed",
+    "id": "math1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "12個のみかんから5個食べました。残りは何個ですか？一文で答えてください。"
+      }
+    ],
+    "text": "17 個です。",
+    "tokens": [
+      16,
+      22,
+      220,
+      96763,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.14519912900868803
+  },
+  {
+    "condition": "reversed",
+    "id": "math2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "3人に4枚ずつカードを配ります。必要なカードは全部で何枚ですか？一文で答えてください。"
+      }
+    ],
+    "text": "12 枚です。",
+    "tokens": [
+      16,
+      17,
+      220,
+      101184,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.14224707195535302
+  },
+  {
+    "condition": "reversed",
+    "id": "math3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "10の半分はいくつですか？一文で答えてください。"
+      }
+    ],
+    "text": "10 の半分は 5 です。",
+    "tokens": [
+      16,
+      15,
+      93280,
+      247565,
+      14876,
+      220,
+      20,
+      235996,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.18650191999040544
+  },
+  {
+    "condition": "reversed",
+    "id": "math4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "1時間は何分ですか？一文で答えてください。"
+      }
+    ],
+    "text": "1 時間 = 60 分。",
+    "tokens": [
+      16,
+      220,
+      99498,
+      283,
+      220,
+      21,
+      15,
+      220,
+      95880,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.20364355901256204
+  },
+  {
+    "condition": "reversed",
+    "id": "context1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "メモ：青い箱には鍵、赤い箱には切手が入っています。鍵があるのは何色の箱ですか？"
+      }
+    ],
+    "text": "青い箱には鍵が入っています。",
+    "tokens": [
+      96556,
+      16098,
+      97027,
+      149494,
+      99893,
+      176878,
+      151578,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.17931040690746158
+  },
+  {
+    "condition": "reversed",
+    "id": "context2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "ミカは大阪に住み、ケンは札幌に住んでいます。ケンの住む都市を一文で答えてください。"
+      }
+    ],
+    "text": "札幌",
+    "tokens": [
+      247434,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.06909262493718415
+  },
+  {
+    "condition": "reversed",
+    "id": "context3",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "予定：火曜日に図書館へ行き、水曜日に歯医者へ行きます。歯医者へ行く曜日を一文で答えてください。"
+      }
+    ],
+    "text": "火曜日に図書館へ、水曜日に歯医者へ。",
+    "tokens": [
+      96405,
+      108154,
+      172776,
+      247663,
+      153059,
+      5205,
+      95936,
+      108154,
+      172776,
+      246845,
+      247923,
+      153059,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.25151796895079315
+  },
+  {
+    "condition": "reversed",
+    "id": "context4",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "合言葉は「さくら」です。このメッセージに書いた合言葉を一文で答えてください。"
+      }
+    ],
+    "text": "さくら。",
+    "tokens": [
+      28743,
+      197039,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.10103400598745793
+  },
+  {
+    "condition": "reversed",
+    "id": "negation1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "ユイはコーヒーを飲まず、お茶を飲みました。ユイが飲んだものを一文で答えてください。"
+      }
+    ],
+    "text": "ユイはコーヒーを飲まずお茶を飲みました。",
+    "tokens": [
+      152062,
+      23457,
+      14876,
+      183367,
+      28452,
+      99859,
+      159481,
+      31171,
+      96971,
+      28452,
+      178986,
+      148437,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.25038848898839206
+  },
+  {
+    "condition": "reversed",
+    "id": "negation2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "箱の中には犬はいません。猫が一匹います。箱の中にいる動物を一文で答えてください。"
+      }
+    ],
+    "text": "箱には猫がいます。",
+    "tokens": [
+      97027,
+      149494,
+      98500,
+      27279,
+      58547,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.14394572004675865
+  },
+  {
+    "condition": "reversed",
+    "id": "summary1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "「電車が遅れたので、会議は10時から11時に変更になった」を一文で要約してください。"
+      }
+    ],
+    "text": "会議は10時から11時に変更。",
+    "tokens": [
+      247304,
+      14876,
+      16,
+      15,
+      200544,
+      16,
+      16,
+      96688,
+      232482,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.20537346100900322
+  },
+  {
+    "condition": "reversed",
+    "id": "summary2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "「雨のため運動会は中止です。授業は通常どおり行います」を一文で要約してください。"
+      }
+    ],
+    "text": "雨のため運動会は中止、授業は通常どおり行います。",
+    "tokens": [
+      96948,
+      175785,
+      104236,
+      241645,
+      122716,
+      5205,
+      247338,
+      14876,
+      99151,
+      64296,
+      152646,
+      95835,
+      58547,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.2645008369581774
+  },
+  {
+    "condition": "reversed",
+    "id": "multi1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "私の名前はハルです。"
+      },
+      {
+        "role": "assistant",
+        "content": "ハルさんですね。覚えました。"
+      },
+      {
+        "role": "user",
+        "content": "私の名前を一文で答えてください。"
+      }
+    ],
+    "text": "ハルです。",
+    "tokens": [
+      149257,
+      31532,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.11498707300052047
+  },
+  {
+    "condition": "reversed",
+    "id": "multi2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "旅行先は京都に決めました。"
+      },
+      {
+        "role": "assistant",
+        "content": "京都への旅行ですね。"
+      },
+      {
+        "role": "user",
+        "content": "さっき決めた旅行先はどこですか？一文で答えてください。"
+      }
+    ],
+    "text": "京都です。",
+    "tokens": [
+      118119,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1049747159704566
+  },
+  {
+    "condition": "reversed",
+    "id": "tech1",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "HTMLは何を記述するための言語ですか？一文で答えてください。"
+      }
+    ],
+    "text": "HTML はテキストを記述するための言語です。",
+    "tokens": [
+      5654,
+      173273,
+      210342,
+      28452,
+      97778,
+      96754,
+      192949,
+      247443,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": false,
+    "sentences": 1,
+    "seconds": 0.20142295002005994
+  },
+  {
+    "condition": "reversed",
+    "id": "tech2",
+    "kind": "prose",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "CPUの主な役割を一文で説明してください。"
+      }
+    ],
+    "text": "CPU は計算処理を主役に、データや情報、制御信号を処理する中枢装置です。",
+    "tokens": [
+      30576,
+      173273,
+      113550,
+      247264,
+      28452,
+      95921,
+      98793,
+      19054,
+      5205,
+      153585,
+      67813,
+      128158,
+      5205,
+      247652,
+      100610,
+      28452,
+      247264,
+      52020,
+      118596,
+      101654,
+      36298,
+      1710,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.37257134495303035
+  },
+  {
+    "condition": "reversed",
+    "id": "json",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "JSONだけを出力してください。キーはanswerで値は数値の42です。説明は不要です。"
+      }
+    ],
+    "text": "{\"answer\": 42}",
+    "tokens": [
+      4754,
+      8944,
+      763,
+      220,
+      19,
+      17,
+      92,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1554459120379761
+  },
+  {
+    "condition": "reversed",
+    "id": "number",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "2+2の答えを半角数字1文字だけで答えてください。"
+      }
+    ],
+    "text": "4",
+    "tokens": [
+      19,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.06887137203011662
+  },
+  {
+    "condition": "reversed",
+    "id": "code",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "Pythonのコードだけを出力してください。変数xに整数3を代入してください。"
+      }
+    ],
+    "text": "x = 3",
+    "tokens": [
+      87,
+      283,
+      220,
+      18,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.1367465949151665
+  },
+  {
+    "condition": "reversed",
+    "id": "quote",
+    "kind": "format",
+    "messages": [
+      {
+        "role": "system",
+        "content": "質問に日本語で簡潔に答えてください。"
+      },
+      {
+        "role": "user",
+        "content": "次の文字列だけを一字も変えずに出力してください：東京"
+      }
+    ],
+    "text": "東京",
+    "tokens": [
+      115197,
+      248046
+    ],
+    "truncated": false,
+    "all_sentences_nyan": false,
+    "required_check": true,
+    "sentences": 1,
+    "seconds": 0.06854525208473206
+  }
+]

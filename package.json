@@ -1,0 +1,10 @@
+{
+  "name": "qwen-nyan-weight-edit-report",
+  "private": true,
+  "scripts": {
+    "report": "node render_report.cjs"
+  },
+  "dependencies": {
+    "markdown-it": "14.3.3"
+  }
+}

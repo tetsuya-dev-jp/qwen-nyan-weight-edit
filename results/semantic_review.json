@@ -1,0 +1,606 @@
+{
+  "reviewer": "Codex, non-blinded qualitative reading of all 100 prose outputs. Not an independent human review.",
+  "rubric": "A completed response must contain all predefined required information, and its final conclusion must not contradict that information. Fluency and sentence-count obedience are not scored as content accuracy.",
+  "rows": [
+    {
+      "condition": "base",
+      "id": "fact1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "fact2",
+      "content_pass": false,
+      "reason": "Incorrectly names Saturn rings instead of the Moon."
+    },
+    {
+      "condition": "base",
+      "id": "fact3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "fact4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "math1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "math2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "math3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "math4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "context1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "context2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "context3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "context4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "negation1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "negation2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "summary1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "summary2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "multi1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "multi2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "base",
+      "id": "tech1",
+      "content_pass": false,
+      "reason": "The requested web-page/structure information is missing; an HTML self-reference or generic text description is insufficient."
+    },
+    {
+      "condition": "base",
+      "id": "tech2",
+      "content_pass": false,
+      "reason": "Repeats control terms until the token cap."
+    },
+    {
+      "condition": "prompt",
+      "id": "fact1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "fact2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "fact3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "fact4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "math1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "math2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "math3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "math4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "context1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "context2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "context3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "context4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "negation1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "negation2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "summary1",
+      "content_pass": false,
+      "reason": "Omits the delay/cause information required by the fixed rubric."
+    },
+    {
+      "condition": "prompt",
+      "id": "summary2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "multi1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "multi2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "prompt",
+      "id": "tech1",
+      "content_pass": false,
+      "reason": "The requested web-page/structure information is missing; an HTML self-reference or generic text description is insufficient."
+    },
+    {
+      "condition": "prompt",
+      "id": "tech2",
+      "content_pass": false,
+      "reason": "Echoes the question without explaining the CPU."
+    },
+    {
+      "condition": "edited",
+      "id": "fact1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "fact2",
+      "content_pass": false,
+      "reason": "Retains the base model's incorrect Saturn-rings answer."
+    },
+    {
+      "condition": "edited",
+      "id": "fact3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "fact4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "math1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "math2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "math3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "math4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "context1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "context2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "context3",
+      "content_pass": false,
+      "reason": "Mentions Wednesday in the copied premise but concludes Tuesday; final answer contradicts the context."
+    },
+    {
+      "condition": "edited",
+      "id": "context4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "negation1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "negation2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "summary1",
+      "content_pass": false,
+      "reason": "Drops the explicit change to 11:00."
+    },
+    {
+      "condition": "edited",
+      "id": "summary2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "multi1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "edited",
+      "id": "multi2",
+      "content_pass": false,
+      "reason": "Repeats the travel destination until the token cap."
+    },
+    {
+      "condition": "edited",
+      "id": "tech1",
+      "content_pass": false,
+      "reason": "The requested web-page/structure information is missing; an HTML self-reference or generic text description is insufficient."
+    },
+    {
+      "condition": "edited",
+      "id": "tech2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "fact1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "fact2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "fact3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "fact4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "math1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "math2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "math3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "math4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "context1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "context2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "context3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "context4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "negation1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "negation2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "summary1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "summary2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "multi1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "multi2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "random",
+      "id": "tech1",
+      "content_pass": false,
+      "reason": "The requested web-page/structure information is missing; an HTML self-reference or generic text description is insufficient."
+    },
+    {
+      "condition": "random",
+      "id": "tech2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "fact1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "fact2",
+      "content_pass": false,
+      "reason": "Incorrectly names a Saturn satellite."
+    },
+    {
+      "condition": "reversed",
+      "id": "fact3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "fact4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "math1",
+      "content_pass": false,
+      "reason": "Says 17 instead of 7."
+    },
+    {
+      "condition": "reversed",
+      "id": "math2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "math3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "math4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "context1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "context2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "context3",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "context4",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "negation1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "negation2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "summary1",
+      "content_pass": false,
+      "reason": "Omits the delay/cause information required by the fixed rubric."
+    },
+    {
+      "condition": "reversed",
+      "id": "summary2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "multi1",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "multi2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    },
+    {
+      "condition": "reversed",
+      "id": "tech1",
+      "content_pass": false,
+      "reason": "The requested web-page/structure information is missing; an HTML self-reference or generic text description is insufficient."
+    },
+    {
+      "condition": "reversed",
+      "id": "tech2",
+      "content_pass": true,
+      "reason": "All required information is present without a contradictory conclusion."
+    }
+  ]
+}

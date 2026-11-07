@@ -1,0 +1,11 @@
+{
+  "method": "supervised closed-form last-MLP edit with generated-state preservation",
+  "delta_path": "artifacts/nyan_delta.safetensors",
+  "strength": 1.5,
+  "layer": 23,
+  "preservation_weight": 4.0,
+  "ridge": 0.01,
+  "margin": 8,
+  "selected_before_heldout": true,
+  "selection_reason": "Five of six development answers contain nyan, five terminate, arithmetic and context answers survive. Tied with preservation_weight=1; choose stronger preservation. The remaining rain-advice loop also occurs in the base model. No held-out output was used for this choice."
+}

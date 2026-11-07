@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.ruff_cache/
+*.py[cod]
+*.egg-info/
+.env
+.env.*
+model_nyan/
+models/
+validation/
+quality/
+node_modules/
+*.log
+*.pt
+results/base_path.txt
